@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Web</title>
+
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+
+  <header>
+    Quiz
+  </header>
+
+  <main>
+    <div class="question">
+      <h2>Question 1:</h2>
+      <p>Which tag is used to create a heading element in HTML?</p>
+      <ul class="options">
+        <li><input type="radio" name="q1" value="paris">heading 1</li>
+        <li><input type="radio" name="q1" value="london"> h1</li>
+        <li><input type="radio" name="q1" value="berlin"> 1heading</li>
+      </ul>
+    </div>
+
+    <div class="question">
+      <h2>Question 2:</h2>
+      <p>What is the difference between a container tag and an empty tag?</p>
+      <ul class="options">
+        <li><input type="radio" name="q2" value="quiz"> An empty tag has an opening and closing tag,<br> while a container tag does not</li>
+        <li><input type="radio" name="q2" value="quiz"> A container tag has an opening and closing tag,<br> while an empty tag does not</li>
+        
+      </ul>
+    </div>
+    <div class="question">
+        <h2>Question 3:</h2>
+        <p>Comments in code are for:</p>
+        <ul class="options">
+          <li><input type="radio" name="q3" value="quiz"> the humans working on the HTML file</li>
+          <li><input type="radio" name="q3" value="quiz"> the web browser to display messages</li>
+         
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Question 4:</h2>
+        <p>Where should the title tag go?</p>
+        <ul class="options">
+          <li><input type="radio" name="q4" value="quiz"> Before the html tag</li>
+          <li><input type="radio" name="q4" value="quiz"> Nested inside the body container tag</li>
+          <li><input type="radio" name="q4" value="quiz"> Nested inside the head container tag</li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Question 5:</h2>
+        <p>What's the selector for a level 1 heading?</p>
+        <ul class="options">
+          <li><input type="radio" name="q5" value="quiz"> 'h1'</li>
+          <li><input type="radio" name="q5" value="quiz"> h1</li>
+          <li><input type="radio" name="q5" value="quiz"> head1</li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Question 6:</h2>
+        <p>Each declaration should end with a…</p>
+        <ul class="options">
+          <li><input type="radio" name="q6" value="quiz"> ;</li>
+          <li><input type="radio" name="q6" value="quiz"> :</li>
+          <li><input type="radio" name="q6" value="quiz"> ()</li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Question 7:</h2>
+        <p>Select the declaration</p>
+        <ul class="options">
+          <li><input type="radio" name="q7" value="quiz"> h1</li>
+          <li><input type="radio" name="q7" value="quiz"> p</li>
+          <li><input type="radio" name="q7" value="quiz"> color: ...;</li>
+        </ul>
+      </div>
+      <div class="question">
+        <h2>Question 8:</h2>
+        <p>how to make LObiani?</p>
+        <ul class="options">
+          <li><input type="radio" name="q8" value="quiz"> with LObio</li>
+          <li><input type="radio" name="q8" value="quiz">with janeza</li>
+          <li><input type="radio" name="q8" value="quiz"> with mate</li>
+        </ul>
+      </div>
+              
+    <button onclick="submitQuiz()">Submit Quiz</button>
+  </main>
+
+  <script>
+    function submitQuiz() {
+      // Add logic to process quiz submission here
+      alert('Quiz submitted!');
+    }
+    // Get user input for their name
+var userName = prompt("What is your name?");
+
+// Check if the user entered a name
+if (userName !== null && userName !== "") {
+    // Display a greeting with the user's name
+    alert("Hello, " + userName + "! Welcome to our website.");
+} else {
+    // Display a generic greeting if the user didn't enter a name
+    alert("Hello there! Welcome to our website.");
+}
+
+
+  </script>
+
+</body>
+</html>

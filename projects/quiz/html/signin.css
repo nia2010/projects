@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rubik+Doodle+Shadow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#div{
+    background-color: rgb(57, 46, 67);
+    padding: 100px 200px 100px 200px;
+    border-radius: 20px;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+    border-radius: 300px;
+    border: solid violet;
+    color: rgb(161, 100, 21);
+    background: transparent ;
+}
+button:hover{
+    background-color: pink;
+}
+a {
+    transition: 0.3s ease;
+ }
+ 
+ a:hover {
+    transform:rotate(360deg)
+ }
+body{
+    background-image: radial-gradient(rgb(87, 63, 87), rgb(156, 156, 156));
+}
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    color: antiquewhite;
+    font-family: Rubik Doodle Shadow;
+}
+form{
+    font-family: Rubik Doodle Shadow;
+    color: rgb(255, 188, 226);
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding-bottom: 20px;
+}
+input[type=text], input[type=password]{
+    border-radius: 150px;
+    height: 30px;
+}
+#dropdown{
+    border-radius:150px ;
+    height:30px ;
+    color: rgb(125, 19, 58);
+    font-size: 18px;
+  }
+
+.buttons{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}

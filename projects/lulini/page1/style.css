@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Crafty+Girls&family=Delius+Unicase&family=Indie+Flower&family=Poppins:wght@300&family=Space+Grotesk&display=swap');
+*{
+    font-family: space grotesk;
+}
+img{
+    width: 10%;
+    opacity: 85%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 25px;
+    font-size: 20px;
+    gap: 60px;
+    margin-right: 40px;
+    
+}
+li, img{
+    margin-left: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+body{
+    background-image:url(./images/pexels-aleksejs-bergmanis-681334.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    border: solid;
+    border-radius: 20px 0 0 20px;
+    border-color:#163e47 ;
+    height: 50px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    transition: 3s ease;
+    color: rgb(0, 60, 18);
+    box-shadow: 2px 2px 2px rgba(58, 66, 90, 0.69);
+    color: white;
+}
+#cont{
+    text-decoration: overline;
+    border-radius: 0 20px 20px 0;
+}
+
+#carse{
+    border-radius: 0 0 0 0;
+}
+#carse:hover{
+    border-radius: 40px 40px 40px 40px;
+}
+a:hover{
+    transform: scale(0.8);
+    border-color: rgb(47, 68, 87);
+    filter: contrast(90%);
+    color: rgba(255, 255, 255, 0.555);
+    box-shadow: 2px 2px 2px rgba(126, 126, 255, 0.69);
+}
+
+#video{
+    opacity: 85%;
+    margin-left: 300px;
+    width: 50%;
+    border-radius: 60px;
+    border: solid;
+    border-color: rgb(0, 110, 13);
+    box-shadow: 3px 3px 3px rgba(0, 169, 0, 0.562);
+    transition: 3s ease;
+}
+#video:hover{
+transform: scale(1.1);
+}
+footer, h4{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+#imgg{
+    width: 100px;
+}
+h2{
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    margin-top: 200px;
+    font-size: 25px;
+    text-shadow: 4px -2px 6px rgb(51, 0, 255);
+    text-decoration: underline;
+}
+#imge{
+    width: 40%;
+    margin-left: 700px;
+    margin-top: -200px;
+    opacity: 85%;
+    cursor: pointer;
+}
+#dive{
+    margin-top: -90px;
+}
+#divo{
+    margin-top: -200px;
+}
+h1{
+    margin-left: -750px;
+    margin-top: 15px;
+    color: white;
+}

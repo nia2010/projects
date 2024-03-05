@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: inconsolata;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+#container{
+    border: solid;
+    width: 101%;
+    margin-left: -19px;
+    border-color: rgba(255, 228, 196, 0);
+    height: 100px;
+    background-color: rgb(35, 35, 35);
+    margin-top: -10px;
+    box-shadow: 3px 3px 15px rgb(0, 0, 0);
+}
+
+#container nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 100px;
+    margin-top: -60px;
+}
+
+#container a{
+    color: green;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+#container li a {
+    cursor: pointer;
+    transition: 2.2s ease;
+}
+
+#container li a:hover{
+    color: rgba(143, 203, 143, 0.592);
+    filter: contrast(202%);
+}
+
+#container hr{
+   width: 0.5%;
+   height: 10px;
+   border-radius: 300px;
+   box-shadow: 3px 3px 15px rgb(55, 55, 55);
+   border-color: rgba(255, 255, 255, 0.178);
+}
+
+#container .hre{
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0);
+    border-color: rgba(255, 255, 255, 0);
+}
+
+#container img{
+    width: 5%;
+    border-radius: 400px;
+    margin-left: 30px;
+    margin-top: 15px;
+    opacity: 80%;
+    border: solid;
+    border-color: white;
+}
+
+#conti img{
+    width: 35%;
+    height: 400px;
+    margin-top: 200px;
+    margin-left: 130px;
+    border: solid;
+    border-radius: 40px;
+    border-color: white;
+    box-shadow: 3px 3px 7px rgb(255, 255, 255);
+    transition: 2.2s ease;
+    cursor: pointer;
+}
+
+#conti img:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 3px 15px white;
+    filter: contrast(110%);
+}
+
+#conti h1{
+    margin-left: 800px;
+    font-size: 50px;
+    margin-top: -360px;
+    
+}
+
+#conti span{
+    color: rgb(0, 57, 0);
+}
+
+#conti{
+    margin-left: 200px;
+}
+
+#conto{
+    background-color: rgba(75, 75, 75, 0.603);
+    height: 900px;
+    margin-top: 120px;
+    border-radius: 200px;
+    box-shadow: 3px 3px 15px white;
+}
+
+#conte{
+    background-color: rgba(91, 91, 91, 0.603);
+    height: 900px;
+    margin-top: 30px;
+    border-radius: 200px;
+    box-shadow: 3px 3px 15px white;
+}
+
+#conts{
+    background-color: rgba(116, 116, 116, 0.603);
+    height: 900px;
+    margin-top: 30px;
+    box-shadow: 3px 3px 15px white;
+    border-radius: 200px;
+    
+}
+
+
+
+#conts h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+#conts img{
+    width: 20%;
+    margin-top: 60px;
+    border: solid;
+    border-radius: 300px;
+    border-color: rgb(11, 69, 11);
+    box-shadow: 0px 0px 40px rgb(0, 0, 0);
+    transition: 2.2s ease;
+}
+
+#conts img:hover{
+    transform: scaleY(1.06);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px black;
+}
+
+#b{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+
+}
+
+#a{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+
+#conts a{
+    margin-top: 300px;
+    margin-left: -100px;
+    border: solid;
+    border-radius: 300px;
+    color: rgba(0, 0, 0, 0);
+    border-color: rgb(203, 233, 203);
+}
+
+#conto img{
+    width: 20%;
+    padding-top: 100px;
+    border-radius: 200px;
+    transition: 2.2s ease;
+}
+
+#conto img:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#c{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    height: 400px;
+}
+
+#d{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    height: 360px;
+}
+
+#conto h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+#f{
+    display: flex;
+    gap: 30px;
+    margin-top: 190px;
+    
+}
+
+#conte img{
+    width: 20%;
+    border: solid;
+    border-radius: 300px;
+   
+}
+
+#conte h1{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 40px;
+    color: white;
+    text-shadow: 3px 3px 10px black;
+}
+
+#conte a{
+    color: white;
+    text-decoration: underline overline;
+}
