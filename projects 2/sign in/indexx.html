@@ -1,0 +1,53 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <div id="div">
+        <h1>Password Reset</h1>
+        <form>
+            <label for="email">Email</label>
+            <input type="email" id="email">
+            <label for="new-password">New Password</label>
+            <input type="password" id="new-password">
+            <label for="confirm-password">Confirm Password</label>
+            <input type="password" id="confirm-password">
+        </form>
+        <p id="error-message" style="color: red; display: none;">Passwords do not match</p>
+        <a href="#" onclick="resetPassword()">Reset Password</a>
+    </div>
+    <script>
+        function resetPassword() {
+    var email = document.getElementById('email').value;
+    var newPassword = document.getElementById('new-password').value;
+    var confirmPassword = document.getElementById('confirm-password').value;
+    var errorMessage = document.getElementById('error-message');
+
+    if (newPassword !== confirmPassword) {
+        errorMessage.style.display = 'block';
+    } else {
+        // Here, you would typically make an API call to your backend
+        // to handle the password reset process.
+        // For the sake of this example, let's assume the reset is successful.
+        
+        // Simulate a successful password reset
+        alert('Password reset successful!'); // Replace this with your actual logic
+        
+        // Reset form fields after successful password change
+        document.getElementById('email').value = '';
+        document.getElementById('new-password').value = '';
+        document.getElementById('confirm-password').value = '';
+        errorMessage.style.display = 'none';
+    }
+}
+
+    </script>
+</body>
+</html>

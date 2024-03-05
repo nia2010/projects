@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Comfortaa:wght@300..700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kode+Mono:wght@400..700&family=Protest+Riot&display=swap');
+*{
+    font-family: comfortaa;
+}
+.main{
+    background-color: rgb(53, 53, 53);
+}
+.heading{
+    color: #68B771;
+    font-size: 45px;
+    transition: 2s ease;
+    margin-left: 150px;
+    margin-top: 40px;
+    width: 310px;
+    font-weight: 900;
+    border-bottom: solid;
+    border-right: solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-color: #041310;
+    box-shadow: 3px 3px 7px #68B771;
+}
+.heading:hover{
+    transform: translateX(100px);
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 3px 3px 7px white;
+}
+nav{
+    margin-left: 700px;
+    margin-top: -135px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+nav ul li {
+    float: left;
+   
+}
+
+nav ul li a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 60px;
+    transition: 1s ease;
+}
+
+nav ul li a:hover {
+    border-radius: 20px;
+    text-shadow: 3px 3px 10px rgb(73, 73, 73);
+    transform: translatey(10px);
+    color: rgb(93, 141, 128);
+}
+.img{
+    opacity: 70%;
+    margin-left: 200px;
+    margin-top: 160px;
+    border: solid;
+    border-radius: 30px;
+    box-shadow: 5px 5px 30px black ;
+    transition: 1.5s ease;
+}
+.img:hover{
+    transform: scale(1.01);
+    box-shadow: 5px 5px 30px white;
+}
+#more {
+    display: none;
+}
+.conte{
+    margin-left: 900px;
+    margin-top: -370px;
+    color: white;
+}
+.btn{
+    margin-top: -1500px;
+    margin-left: -35px;
+    background-color: #68b77100;
+    width: 100px;
+    height: 50px;
+    color: white;
+    border: solid;
+    border-color: rgba(0, 0, 0, 0.142);
+    border-radius: 30px;
+    cursor: pointer;
+}
+

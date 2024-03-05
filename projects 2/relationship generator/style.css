@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Delius+Unicase&family=Exo+2:wght@500&family=Frijole&family=Hi+Melody&family=Indie+Flower&family=Poppins:wght@300&family=Rubik+Doodle+Shadow&family=Rubik+Maps&family=Single+Day&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    color: #3498db;
+    text-shadow: 2px 2px 2px black;
+    font-family: crafty girls;
+    
+  }
+  
+  .input-section {
+    margin-bottom: 30px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 6px;
+    border: 1px solid #544373;
+    transition: border-color 0.3s ease;
+
+  }
+  
+  input[type="text"]:focus {
+    outline: none;
+    border-color: #0099ff;
+  }
+  
+  button {
+    padding: 14px 28px;
+    background-color: #3e3e6e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 1.5s ease;
+  }
+  
+  button:hover {
+    background-color: #0e2c6c;
+    filter:contrast(300%);
+    transform: scale(1.1);
+  }
+  
+  p {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    input[type="text"] {
+      width: calc(100% - 24px);
+    }
+  }
+  
